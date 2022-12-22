@@ -1,0 +1,378 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0%;   
+}
+
+
+h1 {
+    font-size: 300%;
+    margin: 0;
+    
+    
+}
+
+/* barra menu */
+nav {
+    background-color: #012138;
+    text-align: right;
+    padding: 1%;
+    position: sticky;
+    top: 0; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1%;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #012138;
+    cursor: pointer;
+}
+
+
+/* Estilo de la portada */
+
+#fondo h1 {
+    color: #fff;
+    font-size: 500%;
+    font-weight: bold;
+    text-align: center;
+    padding: center;
+    position: static;
+}
+
+#fondo {
+    padding: 15% 5%;
+    background-image: url(img/inicio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+/* quien soy */
+#seccionblanca {
+    color: #012138;
+    padding: 5% 15%;
+    
+
+}
+
+#seccionblanca p {
+    line-height: 1.5;
+    column-count:2;
+   column-gap: 12%;
+    text-align: start;
+}
+
+.escuelas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    column-gap: 10%;
+    margin: 5% 0;
+}
+
+.escuelas img {
+    width: 100%;
+}
+
+.fa-contacto {
+  background: #fff;
+  padding-top: 2%;
+    }
+
+#bajar {
+    margin: 15%;
+}
+#bajar a {
+    background-color: #012138;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+/* experiencia */
+#seccionazul {
+    color: #ffff;
+    background-color: #012138;
+    padding: 5% 15%;
+}
+
+#seccionazul p {
+    line-height: 2;
+}
+
+#pazul {
+    line-height: 2;
+    column-count:2;
+   column-gap: 5%;
+    text-align: left;
+}
+
+.laboral {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-content: center;
+    column-gap: 0%;
+    margin-top: 15%;
+    border: solid;
+}
+
+h2{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 2em;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 3%;
+    font-weight: bold;
+    line-height: 1;
+        }
+
+h3 {
+    
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 10%;
+    font-weight: bold;
+    line-height: 0;
+    
+}
+
+
+.tabla {
+    background-color: #ffff;
+   
+}
+
+.tabla button {
+    color: #012138;
+    padding: 3.5%;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.5s;  
+}
+
+.tabla button:hover {
+     background-color: #012138;
+     color: #fff;
+}
+
+.info {
+    color: #ffff;
+    background-color:  #012138;
+}
+.info p {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 6%;
+    
+    
+}
+
+/* habilidades */
+.seccionblanca {
+    color: #012138;
+    background-color: #fff;
+    max-height: 80%;
+}
+
+.mySlides {
+    max-width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: solid #012138;
+    position: center;
+    
+    
+}
+.demo {
+    background-color: #012138;
+    color: #fff;
+    padding: 2% 10%;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+   
+    
+}
+
+.demo: hover {
+     color: #012138;
+     background-color: #fff;
+    cursor: pointer;
+
+}
+
+
+
+
+#flechas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     transition: 0.5s;
+    cursor: pointer;
+    
+}
+    
+
+/* CURSOS */
+
+.selectores {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+    column-gap: 2%;
+    margin-top: 5%;
+    
+}
+
+.tablink {
+    cursor: pointer;
+    background-color: #ffff;
+    color: #012138;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    
+}
+
+.tablink: hover {
+    background-color: #ffff;
+    color: #012138;
+    opacity: .2;
+    cursor: pointer;
+}
+
+
+.tabcontent {
+    color: #012138;
+    display: grid;
+    grid-template-columns: 30% auto;
+    background-color: white;
+    justify-content: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+    padding: 5%;
+    }
+
+.tabcontent img {
+    width: 10em;
+    
+}
+
+.tabcontent p {
+    
+    padding-left: 10%;
+    }
+
+
+
+/* contacto */
+#seccionblancacontacto {
+    height: 700px;
+    padding: 0%;
+    margin: 0%;
+    background-image: url(img/contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }
+
+#seccionblancacontacto h1 {
+    font-size: 300%;
+    color: #fff;
+    padding: 7%;
+    margin: 0;
+        
+    }
+
+.cursos {
+    color: #ffff;
+}
+
+.datos {
+    display: grid;
+    padding-left: 10%;
+    
+    
+}
+
+.datos p {
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fa {
+  padding: 0%;
+  width: 0%;
+  text-align: center;
+  text-decoration: none;
+  margin:0%;
+}
+
+.fa:hover {
+    opacity: .2;
+    cursor: pointer;
+}
+
+.fa-ubicacion {
+  background: #fff;
+  
+    }
+    
+.fa-fon {
+  background: #fff;
+ 
+   
+}
+
+.fa-email {
+  background: #fff;
+    }
+
+@media only screen and (max-width: 700px) {
+  nav a {
+    font-size: 0.6em;
+  }
+    
+}
+footer {
+   background-color: #012138;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-align: center;
+    padding: 2%;
+}    
+    
+    
+    
+    
+    
+    
+    
