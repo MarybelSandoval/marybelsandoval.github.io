@@ -208,6 +208,8 @@ h3 {
     color: #ffff;
     font-weight: bold;
     cursor: pointer;
+    border: 0;
+   border-radius: 2em;
    
     
 }
@@ -215,20 +217,15 @@ h3 {
 .demo: hover {
      color: #012138;
      background-color: #fff;
-    cursor: pointer;
-
 }
-
-
-
 
 #flechas {
     display: flex;
     align-items: center;
     justify-content: center;
-     transition: 0.5s;
-    cursor: pointer;
-    
+    transition: 0.5s;
+  cursor: pointer;
+  
 }
     
 
@@ -240,9 +237,7 @@ h3 {
     justify-items: center;
     align-items: center;
     column-gap: 2%;
-    margin-top: 5%;
-    
-}
+    margin-top: 5%;}
 
 .tablink {
     cursor: pointer;
@@ -253,16 +248,13 @@ h3 {
     padding: 5%;
     width: 100%;
     height: 100%;
-    border: transparent;
-    
-}
+    border: transparent;}
 
 .tablink: hover {
     background-color: #ffff;
     color: #012138;
     opacity: .2;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 
 .tabcontent {
@@ -274,19 +266,16 @@ h3 {
     justify-items: center;
     align-items: center;
     text-align: left;
-    padding: 5%;
-    }
+    padding: 5%;}
 
-.tabcontent img {
-    width: 10em;
-    
+.tabcontent img { width: 10em;}
+
+.tabcontent p { padding-left: 10%; }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
-
-.tabcontent p {
-    
-    padding-left: 10%;
-    }
-
 
 
 /* contacto */
@@ -317,6 +306,7 @@ h3 {
     padding-left: 10%;
     
     
+    
 }
 
 .datos p {
@@ -332,22 +322,22 @@ h3 {
   text-align: center;
   text-decoration: none;
   margin:0%;
+  border-radius: 1em;
+   
 }
 
 .fa:hover {
     opacity: .2;
     cursor: pointer;
+    
 }
 
 .fa-ubicacion {
   background: #fff;
-  
     }
     
 .fa-fon {
-  background: #fff;
- 
-   
+  background: #fff;  
 }
 
 .fa-email {
@@ -356,8 +346,9 @@ h3 {
 
 @media only screen and (max-width: 700px) {
   nav a {
-    font-size: 0.6em;
-  }  
+    font-size: 0.8em;
+  }
+    
 }
 footer {
    background-color: #012138;
@@ -366,7 +357,8 @@ footer {
     font-size: .8em;
     text-align: center;
     padding: 2%;
-}     
+}    
+    
     
     
     
